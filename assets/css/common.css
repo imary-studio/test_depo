@@ -49,7 +49,7 @@
   grid-column-end: 8;
 }
 
-.big_wrapper {
+.big-wrapper {
   margin-left: calc((100vw - 1200px)/2);
 }
 
@@ -207,7 +207,7 @@ section#main .background .left-side {
   border-left: 2px solid #ebebef;
 }
 
-section#main .we_offer {
+section#main .we-offer {
   padding-top: 114px;
   grid-column-start: 1;
   grid-column-end: 8;
@@ -274,7 +274,7 @@ section#main .service a {
   border-bottom: 1px solid #fff;
 }
 
-section#main .service_item {
+section#main .service-item {
   border: 2px solid #eceded;
   border-left: none;
   align-self: center;
@@ -285,27 +285,27 @@ section#main .service_item {
   color: #383e5e;
 }
 
-section#main .service_item h4 {
+section#main .service-item h4 {
   padding-top: 40px;
 }
 
-section#main .service_item img {
+section#main .service-item img {
   margin-top: 30px;
   margin-bottom: 35px;
 }
 
-section#main .service_item a {
+section#main .service-item a {
   color: #383e5e;
   border-bottom: 1px solid #383e5e;
 }
 
-section#main .service_item:hover {
+section#main .service-item:hover {
   background-color: #383e5e;
   transition: 0.3s;
   color: #fff;
 }
 
-section#main .service_item:hover a {
+section#main .service-item:hover a {
   color: #fff;
   border-bottom: 1px solid #fff;
 }
@@ -320,24 +320,24 @@ section#main .second {
   grid-column-end: 13;
 }
 
-.my_carousel {
+.my-carousel {
   margin-bottom: 100px;
 }
 
-.my_carousel h3 {
+.my-carousel h3 {
   margin-bottom: 78 !important;
 }
 
-.my_carousel .owl-item {
+.my-carousel .owl-item {
   width: 450px;
 }
 
-.my_carousel .owl-item img {
+.my-carousel .owl-item img {
   height: 250px;
   width: 450px;
 }
 
-.my_carousel p {
+.my-carousel p {
   padding-top: 13px;
   padding-left: 20px;
   font-size: 21px;
@@ -347,7 +347,7 @@ section#main .second {
   color: #2f313c;
 }
 
-.my_carousel p a {
+.my-carousel p a {
   color: #2f313c;
   text-decoration: none;
   border-bottom: 1px solid #2f313c;
@@ -428,17 +428,17 @@ section#upper-footer .wrapper h5 {
   margin-bottom: 80px;
 }
 
-section#upper-footer .wrapper .f_first {
+section#upper-footer .wrapper .f-first {
   grid-column-start: 1;
   grid-column-end: 3;
 }
 
-section#upper-footer .wrapper .f_second {
+section#upper-footer .wrapper .f-second {
   grid-column-start: 3;
   grid-column-end: 5;
 }
 
-section#upper-footer .wrapper .f_third {
+section#upper-footer .wrapper .f-third {
   grid-column-start: 6;
   grid-column-end: 7;
 }
