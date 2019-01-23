@@ -16,6 +16,12 @@
           margin-right: 43px
         li:nth-child(4)
           margin-right: 155px
+      .article
+        h1
+          font-size: 80px
+          line-height: 92px
+        h2
+          font-size: 40px
     section#main
       padding-bottom: 110px
       p
@@ -55,6 +61,71 @@
         .copy
           .copyru
             margin-left: 5px
-@media screen and (min-device-width: 0px) and (max-device-width: 769px)
+
+@media screen and (min-device-width: 769px) and (max-device-width: 1050px)
   body
-    display: none
+    .background
+      display: none !important
+    .wrapper
+      width: 860px
+    .big-wrapper
+      width: 860px
+      margin: 0 auto !important
+  section#upper
+    header
+      padding-top: 40px
+      nav
+        padding-bottom: 25px
+      img
+        width: 185px
+        height: auto
+        margin-left: -60px
+        align-self: center
+        padding-bottom: 25px
+      li
+        margin-right: 50px !important
+      li:nth-child(4)
+        margin-right: 66px !important
+      li:nth-child(1)
+        margin-left: 66px !important
+      li:last-child
+        margin: 0 !important
+    .article
+      h1
+        font-size: 69px !important
+        line-height: 86px !important
+      h2
+        font-size: 36px !important
+  section#main
+    padding-bottom: 45px !important
+    background-color: #f8f8f8
+    .wrapper.srv
+      grid-template-columns: repeat(11, 1fr)
+      margin-top: 50px !important
+    .service
+      grid-column-start: 1
+      grid-column-end: 4
+      h4
+        margin-bottom: 275px !important
+    img
+      width: 275px
+      height: auto
+    .first
+      grid-column-start: 4
+      grid-column-end: 8
+    .second
+      grid-column-start: 8
+      grid-column-end: 12
+    .slide-progress
+      max-width: 860px !important
+  section#upper-footer
+    background-color: #383e5e
+  footer
+    .copy
+      span
+        display: block
+        text-align: center
+
+@media screen and (min-device-width: 0px) and (max-device-width: 768px)
+  body
+    // display: none

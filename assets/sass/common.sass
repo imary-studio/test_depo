@@ -1,4 +1,4 @@
-@import "fonts", "mixins", "responsive"
+@import "fonts", "mixins"
 *
   padding: 0
   margin: 0
@@ -86,7 +86,7 @@ section#upper
   .article
     padding-top: 183px
     text-align: right
-    grid-column-start: 1
+    grid-column-start: 3
     grid-column-end: 13
     h1
       text-transform: uppercase
@@ -292,6 +292,7 @@ footer
       background-color: #303550
       border-left: 2px solid #888b9e
   .wrapper
+    z-index: 100
     display: grid
     grid-template-columns: repeat(6, 1fr)
     text-transform: uppercase
@@ -319,3 +320,5 @@ footer
       width: auto
       padding-left: 1px
       padding-right: 9px
+
+@import "responsive"

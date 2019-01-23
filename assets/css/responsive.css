@@ -21,6 +21,13 @@
   body section#upper header li:nth-child(4) {
     margin-right: 155px;
   }
+  body section#upper .article h1 {
+    font-size: 80px;
+    line-height: 92px;
+  }
+  body section#upper .article h2 {
+    font-size: 40px;
+  }
   body section#main {
     padding-bottom: 110px;
   }
@@ -69,8 +76,84 @@
   }
 }
 
-@media screen and (min-device-width: 0px) and (max-device-width: 769px) {
-  body {
-    display: none;
+@media screen and (min-device-width: 769px) and (max-device-width: 1050px) {
+  body .background {
+    display: none !important;
+  }
+  body .wrapper {
+    width: 860px;
+  }
+  body .big-wrapper {
+    width: 860px;
+    margin: 0 auto !important;
+  }
+  section#upper header {
+    padding-top: 40px;
+  }
+  section#upper header nav {
+    padding-bottom: 25px;
+  }
+  section#upper header img {
+    width: 185px;
+    height: auto;
+    margin-left: -60px;
+    align-self: center;
+    padding-bottom: 25px;
+  }
+  section#upper header li {
+    margin-right: 50px !important;
+  }
+  section#upper header li:nth-child(4) {
+    margin-right: 66px !important;
+  }
+  section#upper header li:nth-child(1) {
+    margin-left: 66px !important;
+  }
+  section#upper header li:last-child {
+    margin: 0 !important;
+  }
+  section#upper .article h1 {
+    font-size: 69px !important;
+    line-height: 86px !important;
+  }
+  section#upper .article h2 {
+    font-size: 36px !important;
+  }
+  section#main {
+    padding-bottom: 45px !important;
+    background-color: #f8f8f8;
+  }
+  section#main .wrapper.srv {
+    grid-template-columns: repeat(11, 1fr);
+    margin-top: 50px !important;
+  }
+  section#main .service {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  section#main .service h4 {
+    margin-bottom: 275px !important;
+  }
+  section#main img {
+    width: 275px;
+    height: auto;
+  }
+  section#main .first {
+    grid-column-start: 4;
+    grid-column-end: 8;
+  }
+  section#main .second {
+    grid-column-start: 8;
+    grid-column-end: 12;
+  }
+  section#main .slide-progress {
+    max-width: 860px !important;
+  }
+  section#upper-footer {
+    background-color: #383e5e;
+  }
+  footer .copy span {
+    display: block;
+    text-align: center;
   }
 }
