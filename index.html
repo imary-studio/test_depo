@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="width=device-width, initial-scale=1.0" user-scalable=no name="viewport">
 	<link href="assets/css/common.css" rel="stylesheet">
 	<link href="assets/css/owl.carousel.min.css" rel="stylesheet">
 	<meta content="ie=edge" http-equiv="X-UA-Compatible">
@@ -11,8 +11,11 @@
 <body>
 	<section id="upper">
 		<header class="wrapper">
-			<img alt="" src="assets/img/logo.png">
-			<nav>
+			<div class="logo-menu">
+				<img alt="" src="assets/img/logo.png">
+				<a href="#" class="mobile-icon"><span><img src="assets/img/menu.png" alt=""></span></a>
+			</div>
+			<nav id="menu">
 				<ul>
 					<li>
 						<a href="#">консалтинг</a>
@@ -21,21 +24,21 @@
 						<a href="#">оборудование</a>
 					</li>
 					<li class="dropdown">
-						<a href="#">о компании<span class="arrow">&#9660;</span></a>
-						<div class="dropdown-content">
-							<ul class="drop">
-								<li>
-									<a href="">информация</a>
-								</li>
-							</ul>
-						</div>
+						<a href="#" class="dropdown-item">о компании<span class="arrow">&#9660;</span></a>
+
+									<div class="dropdown-content">
+										<a href="#">о нас</a><br>
+										<a href="#">контакты</a><br>
+										<a href="#">обратная связь</a>
+									</div>
+
 					</li>
 					<li>
 						<a href="#">контакты</a>
 					</li>
 					<li class="dropdown">
 						<div class="lang">
-							<a href="#">ru<span class="arrow">&#9660;</span></a>
+							<a href="#" class="dropdown-item">ru<span class="arrow">&#9660;</span></a>
 							<div class="dropdown-content">
 								<a href="#">en</a>
 							</div>
@@ -85,15 +88,24 @@
 			<div class="owl-carousel my-carousel">
 				<div>
 					<img alt="" src="assets/img/slide_1.jpg">
-					<p>Мы предлагаем многоуровневые сервисные <a href="#">предложения</a></p>
+					<p>Мы предлагаем
+						многоуровневые
+						сервисные
+						<a href="#">предложения</a></p>
 				</div>
 				<div>
 					<img alt="" src="assets/img/slide_2.jpg">
-					<p>Силу ветра, для обеспечения крупнейших <a href="#">экономик мира</a></p>
+					<p>Силу ветра,
+						для обеспечения
+						крупнейших <a href="#">экономик
+							мира</a></p>
 				</div>
 				<div>
 					<img alt="" src="assets/img/slide_3.jpg">
-					<p>Современная ветроэнергетическая установка <a href="#">мультимегаватного класса</a></p>
+					<p>Современная
+						ветроэнергетическая
+						установка <a href="#">мультимегаватного
+							 класса</a></p>
 				</div>
 			</div>
 		</div>
@@ -176,7 +188,7 @@
 			</div>
 			<div class="dropdown">
 				<div class="lang">
-					<a href="#">ru<span class="arrow">&#9660;</span></a>
+					<a href="#" class="dropdown-item">ru<span class="arrow">&#9660;</span></a>
 					<div class="dropdown-content">
 						<a href="#">en</a>
 					</div>
@@ -184,7 +196,7 @@
 			</div>
 		</div>
 	</footer>
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+	<script src="assets/js/jquery-3.3.1.min.js">
 	</script>
 	<script src="assets/js/owl.carousel.js">
 	</script>
