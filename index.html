@@ -1,53 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
-	<meta charset="UTF-8">
-	<meta content="width=device-width, initial-scale=1.0" user-scalable=no name="viewport">
-	<link href="assets/css/common.css" rel="stylesheet">
-	<link href="assets/css/owl.carousel.min.css" rel="stylesheet">
-	<meta content="ie=edge" http-equiv="X-UA-Compatible">
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
 	<title>Hlib Suriaha for depoStudio</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+
+	<link rel="stylesheet" href="css/main.min.css">
+
 </head>
 <body>
 	<section id="upper">
-		<header class="wrapper">
-			<div class="logo-menu">
-				<img alt="" src="assets/img/logo.png">
-				<a href="#" class="mobile-icon"><span><img src="assets/img/menu.png" alt=""></span></a>
-			</div>
-			<nav id="menu">
-				<ul>
-					<li>
-						<a href="#">консалтинг</a>
-					</li>
-					<li>
-						<a href="#">оборудование</a>
-					</li>
-					<li class="dropdown">
-						<a href="#" class="dropdown-item">о компании<span class="arrow">&#9660;</span></a>
+		<header class="container">
+			<div class="row justify-content-between">
+				<div class="logo-menu col-md-auto col-12">
+					<img alt="" src="img/logo.png">
+					<a href="#" class="mobile-icon"><span><img src="img/menu.png" alt=""></span></a>
+				</div>
+				<nav id="menu" class="col-md-auto col-12">
+					<ul>
+						<li>
+							<a href="#">консалтинг</a>
+						</li>
+						<li>
+							<a href="#">оборудование</a>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-item">о компании<span class="arrow">&#9660;</span></a>
 
-									<div class="dropdown-content">
-										<a href="#">о нас</a><br>
-										<a href="#">контакты</a><br>
-										<a href="#">обратная связь</a>
-									</div>
+										<div class="dropdown-content">
+											<a href="#">о нас</a><br>
+											<a href="#">контакты</a><br>
+											<a href="#">обратная связь</a>
+										</div>
 
-					</li>
-					<li>
-						<a href="#">контакты</a>
-					</li>
-					<li class="dropdown">
-						<div class="lang">
-							<a href="#" class="dropdown-item">ru<span class="arrow">&#9660;</span></a>
-							<div class="dropdown-content">
-								<a href="#">en</a>
+						</li>
+						<li>
+							<a href="#">контакты</a>
+						</li>
+						<li class="dropdown">
+							<div class="lang">
+								<a href="#" class="dropdown-item">ru<span class="arrow">&#9660;</span></a>
+								<div class="dropdown-content">
+									<a href="#">en</a>
+								</div>
 							</div>
-						</div>
-					</li>
-				</ul>
-			</nav>
+						</li>
+					</ul>
+				</nav>
+				</div>
+
 		</header>
-		<div class="wrapper">
+		<div class="container">
 			<div class="article">
 				<h1>консультационные<br>
 				услуги</h1>
@@ -57,51 +77,53 @@
 	</section>
 	<section id="main">
 		<div class="background">
-			<div class="right-side"></div>
 			<div class="left-side"></div>
+			<div class="right-side"></div>
 		</div>
-		<div class="wrapper">
-			<div class="we-offer">
+		<div class="container">
+			<div class="we-offer col-12 col-lg-8">
 				<h3>Мы предлагаем<br>
 				многоуровневые<br>
 				сервисные предложения</h3>
 				<p>Мы предлагаем многоуровневые сервисные предложения: от удаленного мониторинга до полного обслуживания вашего завода, а также широкий спектр улучшений, повышающих производительность, чтобы поддерживать бесперебойную работу ваших турбин.</p>
-				<p>Если вы ищете поддержку с незапланированным обслуживанием или заинтересованы в модернизации вашего оборудования, мы сможем удовлетворить ваши потребности.</p>
+				<p class="offer-2">Если вы ищете поддержку с незапланированным обслуживанием или заинтересованы в модернизации вашего оборудования, мы сможем удовлетворить ваши потребности.</p>
 			</div>
 		</div>
-		<div class="wrapper srv">
-			<div class="service">
-				<h4>наши услуги</h4><a href="#">Подробнее</a>
-			</div>
-			<div class="service-item first">
-				<h4>консалтинг</h4><img alt="" src="assets/img/srv_1.jpg"> <a href="#">Ознакомиться с услугами</a>
-			</div>
-			<div class="service-item second">
-				<h4>оборудование</h4><img alt="" src="assets/img/srv_2.jpg"> <a href="#">Ознакомиться с услугами</a>
+		<div class="container srv">
+			<div class="row">
+				<div class="service col-12 col-md-4 col-lg-3 offset-lg-1">
+					<h4>наши услуги</h4><a href="#">Подробнее</a>
+				</div>
+				<div class="service-item first col-12 col-md-4">
+					<h4>консалтинг</h4><img alt="" src="img/srv_1.jpg"> <a href="#">Ознакомиться с услугами</a>
+				</div>
+				<div class="service-item second col-12 col-md-4">
+					<h4>оборудование</h4><img alt="" src="img/srv_2.jpg"> <a href="#">Ознакомиться с услугами</a>
+				</div>
 			</div>
 		</div>
-		<div class="wrapper">
+		<div class="container slider-h">
 			<h3>новости<br>
 			в сфере ветроэнергетики</h3>
 		</div>
-		<div class="big-wrapper">
-			<div class="owl-carousel my-carousel">
-				<div>
-					<img alt="" src="assets/img/slide_1.jpg">
+		<div class="big-container">
+			<div class="carousel">
+				<div class="item">
+					<img alt="" src="img/slide_1.jpg">
 					<p>Мы предлагаем
 						многоуровневые
 						сервисные
 						<a href="#">предложения</a></p>
 				</div>
-				<div>
-					<img alt="" src="assets/img/slide_2.jpg">
+				<div class="item">
+					<img alt="" src="img/slide_2.jpg">
 					<p>Силу ветра,
 						для обеспечения
 						крупнейших <a href="#">экономик
 							мира</a></p>
 				</div>
-				<div>
-					<img alt="" src="assets/img/slide_3.jpg">
+				<div class="item">
+					<img alt="" src="img/slide_3.jpg">
 					<p>Современная
 						ветроэнергетическая
 						установка <a href="#">мультимегаватного
@@ -109,98 +131,113 @@
 				</div>
 			</div>
 		</div>
-		<div class="wrapper progress">
-			<div class="slide-progress"></div>
+
+
+		<div class="container">
+			<div class="progress">
+				<div class="slide-progress"></div>
+			</div>
 		</div>
 	</section>
+
 	<section id="upper-footer">
 		<div class="background">
-			<div class="right-side"></div>
 			<div class="left-side"></div>
+			<div class="right-side"></div>
 		</div>
-		<div class="wrapper">
-			<div class="hor-line"></div>
-			<div class="f-first">
-				<h5>консалтинг</h5>
-				<ul>
-					<li>
-						<a href="#">Измерение ресурса ВИЭ</a>
-					</li>
-					<li>
-						<a href="#">Прогноз выработки объекта ВИЭ</a>
-					</li>
-					<li>
-						<a href="#">Независимый аудит объекта ВИЭ</a>
-					</li>
-					<li>
-						<a href="#">Проектный консалтинг</a>
-					</li>
-				</ul>
-			</div>
-			<div class="f-second">
-				<h5>оборудование</h5>
-				<ul>
-					<li>
-						<a href="#">Измерительные мачты</a>
-					</li>
-					<li>
-						<a href="#">Измерительное оборудование</a>
-					</li>
-					<li>
-						<a href="#">Калибрование измерительного оборудования</a>
-					</li>
-				</ul>
-			</div>
-			<div class="f-third">
-				<h5>о компании</h5>
-				<ul>
-					<li>
-						<a href="#">Команда</a>
-					</li>
-					<li>
-						<a href="#">Партнеры</a>
-					</li>
-					<li>
-						<a href="#">Клиенты</a>
-					</li>
-					<li>
-						<a href="#">Наши проекты</a>
-					</li>
-					<li>
-						<a href="#">Новости</a>
-					</li>
-					<li>
-						<a href="#">Вакансии</a>
-					</li>
-				</ul>
+		<div class="container">
+			<div class="line"></div>
+			<div class="row">
+				<div class="col-12 col-sm-6 col-md-4">
+					<h5>консалтинг</h5>
+						<ul>
+							<li>
+								<a href="#">Измерение ресурса ВИЭ</a>
+							</li>
+							<li>
+								<a href="#">Прогноз выработки объекта ВИЭ</a>
+							</li>
+							<li>
+								<a href="#">Независимый аудит объекта ВИЭ</a>
+							</li>
+							<li>
+								<a href="#">Проектный консалтинг</a>
+							</li>
+						</ul>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4">
+					<h5>оборудование</h5>
+					<ul>
+						<li>
+							<a href="#">Измерительные мачты</a>
+						</li>
+						<li>
+							<a href="#">Измерительное оборудование</a>
+						</li>
+						<li>
+							<a href="#">Калибрование измерительного оборудования</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-12 col-sm-12 col-md-2 ml-md-auto about-company">
+					<h5>о компании</h5>
+									<ul>
+										<li>
+											<a href="#">Команда</a>
+										</li>
+										<li>
+											<a href="#">Партнеры</a>
+										</li>
+										<li>
+											<a href="#">Клиенты</a>
+										</li>
+										<li>
+											<a href="#">Наши проекты</a>
+										</li>
+										<li>
+											<a href="#">Новости</a>
+										</li>
+										<li>
+											<a href="#">Вакансии</a>
+										</li>
+									</ul>
+				</div>
+
 			</div>
 		</div>
+
 	</section>
+
 	<footer>
-		<div class="background">
-			<div class="right-side"></div>
-			<div class="left-side"></div>
-		</div>
-		<div class="wrapper">
-			<div class="logo"><img alt="logo" src="assets/img/logo.png"></div>
-			<div class="copy">
-				<span class="copyen">© 2018</span><span class="copyru">все авторские права защищены</span>
+			<div class="background">
+				<div class="left-side"></div>
+				<div class="right-side"></div>
 			</div>
-			<div class="dropdown">
-				<div class="lang">
-					<a href="#" class="dropdown-item">ru<span class="arrow">&#9660;</span></a>
-					<div class="dropdown-content">
-						<a href="#">en</a>
+			<div class="container">
+				<div class="row">
+					<div class="logo col-4"><img alt="logo" src="img/logo.png"></div>
+					<div class="copy col-12 col-md-4 row justify-content-center">
+						<span class="copyen col-auto">© 2018</span><span class="copyru col-auto">все авторские права защищены</span>
+					</div>
+					<div class="dropdown col-12 col-md-2 ml-auto">
+						<div class="lang">
+							<a href="#" class="dropdown-item">ru<span class="arrow">&#9660;</span></a>
+							<div class="dropdown-content">
+								<a href="#">en</a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</footer>
-	<script src="assets/js/jquery-3.3.1.min.js">
-	</script>
-	<script src="assets/js/owl.carousel.js">
-	</script>
-	<script src="assets/js/main.js">
-	</script>
+		</footer>
+
+
+
+
+
+
+
+		<script src="js/scripts.min.js"></script>
 </body>
+
 </html>

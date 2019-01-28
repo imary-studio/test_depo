@@ -1,0 +1,220 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
++media-breakpoint-down(lg)
+  section#upper
+    .logo-menu
+      img
+        margin-left: -100px
+    header
+      ul
+        li:nth-child(2)
+          margin-right: 100px
+        li:nth-child(4)
+          margin-right: 150px
+  section#main
+    padding-bottom: 90px
+    .service-item
+      padding-left: 15px
+      // img
+      //   display: 95%
+    .big-container
+      padding-left: 10px
+  section#upper-footer
+    .line
+      width: 1000px
+
+
++media-breakpoint-down(md)
+  section#upper
+    .logo-menu
+      img
+        margin-left: -50px
+    header
+      ul
+        li
+          margin-right: 35px !important
+        li:last-child
+          margin-right: 0 !important
+    .article
+      padding-top: 150px
+      h1
+        font-size: 69px
+      h2
+        font-size: 35px
+  section#main
+    .big-container
+      width: 800px
+      height: auto
+      margin: 0 auto
+    .service-item
+      img
+        width: 95%
+        margin-bottom: 82px
+  section#upper-footer
+    .line
+      width: 800px
+// ≥1024px
++media-breakpoint-down(sm)
+  body
+    .dropdown
+    .dropdown-content
+      position: relative
+      box-shadow: none
+      display: none
+    section#upper
+      position: relative
+      background-attachment: scroll
+      background-position: center
+      header
+        border-bottom: 2px solid #8a93ab
+        padding-bottom: 15px
+        .logo-menu
+          img
+            margin: 0
+            padding-left: 10px
+        .mobile-icon
+          display: block
+          position: absolute
+          right: 10px
+          top: 15px
+          width: auto
+        nav
+          border: 0
+          display: none
+          ul
+            margin-top: 10px
+            display: block
+            background-color: #383e5e
+            padding: 15px
+            text-align: center
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+            li
+              margin: 0 !important
+      .article
+        h1
+          font-family: "GilroyHeavy"
+          font-size: 51px
+          line-height: 60px
+          opacity: 1
+          text-align: center
+        h2
+          font-size: 30px
+          text-align: center
+    section#main
+      height: auto
+      .background
+        display: none
+      .we-offer
+        padding-top: 50px
+        h3
+          margin-bottom: 40px
+        p.offer-2
+          margin-top: 40px
+      .srv
+        margin-top: 70px
+        margin-bottom: 70px
+      .service
+        height: auto
+        padding-top: 30px
+        padding-bottom: 30px
+        h4
+          padding-top: 0
+          margin-bottom: 40px
+      .service-item
+        height: auto
+        padding-bottom: 25px
+        padding-left: 25px
+        border-left: 2px solid #eceded
+        img
+          width: 95%
+          margin-bottom: 20px
+      .slider-h, .big-container, .progress
+        display: none
+    section#upper-footer
+      height: auto
+      background-color: #383e5e
+      .background
+        display: none
+      .line
+        width: 640px
+      h5
+        margin-bottom: 40px
+      .about-company
+        h5
+          margin-top: 15px
+          margin-bottom: 10px
+        ul
+          li
+            display: inline-block
+            margin-right: 7px
+    footer
+      background-color: #303550
+      height: auto
+      display: block
+      padding-bottom: 30px
+      .background
+        display: none
+      .logo
+        margin: 0 auto
+      .dropdown
+        display: none
+      .copy
+        margin-top: 10px
+
++media-breakpoint-down(xs)
+  body
+    .container
+      padding: 0 15px
+    section#upper
+      .article
+        padding-left: 0
+        padding-right: 0
+        h1
+          font-size: 8.5vw
+          line-height: 40px
+        h2
+          font-size: 6vw
+    section#main
+      padding-bottom: 0
+      .we-offer
+        h3
+          font-size: 10vw
+    section#upper-footer
+      text-align: center
+      .line
+        display: none
+      h5
+        margin-bottom: 10px
+        padding-bottom: 5px
+        border-bottom: 1px solid #888b9e
+      ul
+        a
+          font-size: 18px
+          line-height: 40px
+    footer
+      .logo
+        display: none
+      .container
+        .copy
+
+          .copyru
+            margin-left: 4px
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
++media-breakpoint-up(sm)
+
+
+// ≤1024px
++media-breakpoint-up(md)
+
+// ≤1440px
++media-breakpoint-up(lg)
+
+
+// ≤1600px
++media-breakpoint-up(xl)
